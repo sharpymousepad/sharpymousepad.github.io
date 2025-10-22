@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sharpy mousepad - Oficiální stránky</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #d3d3d3;
+            color: #333;
+        }
+        header {
+            background-color: #111;
+            text-align: center;
+            padding: 40px 20px;
+            color: #fff;
+        }
+        header h1 { font-size: 3em; text-transform: lowercase; margin: 0; }
+        .sharpy { color: #87CEFA; }
+        .mousepad { color: #ff1493; }
+        .pad { color: #87CEFA; }
+        nav {
+            background-color: #222;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 10px 0;
+        }
+        nav a { color: #fff; text-decoration: none; margin: 5px 15px; font-weight: bold; transition: color 0.3s ease; }
+        nav a:hover { color: #ff1493; }
+        main { padding: 40px 20px; max-width: 1200px; margin: auto; text-align: justify; }
+        h2 { color: #ff1493; font-size: 2em; margin-top: 80px; margin-bottom: 20px; text-align: center; }
+        h2#hudba-title { font-size: 4em; }
+        h2#hudba-title span.b { color: #87CEFA; }
+        p { font-size: 1.2em; line-height: 1.8em; margin-top: 40px; margin-bottom: 30px; text-align: center; color: #222; }
+        .profile-container { display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap; margin-bottom: 20px; }
+        .profile-img, .side-img, .left-img, .right-img { width: 300px; height: 210px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); filter: brightness(1) contrast(1); }
+        .right-img { order: 3; }
+        .profile-img { order: 2; }
+        .left-img { order: 1; }
+        #hudba img { display: block; margin: 20px auto; width: 300px; height: 210px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); filter: brightness(1) contrast(1); }
+        footer { background-color: #111; text-align: center; padding: 20px; font-size: 0.9em; color: #888; }
+        .btn { display: inline-block; padding: 10px 20px; margin: 10px 5px 0 5px; background-color: #ff1493; color: #fff; text-decoration: none; font-weight: bold; border-radius: 4px; transition: background 0.3s ease; }
+        .btn:hover { background-color: #ff5ab2; }
+        #hudba div { text-align: center; }
+        @media (max-width: 768px) {
+            header h1 { font-size: 2em; }
+            h2#hudba-title { font-size: 2.5em; }
+            .profile-img, .side-img, .left-img, .right-img { width: 90%; height: auto; }
+            #hudba img { width: 90%; height: auto; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><span class="sharpy">sharpy</span> <span class="mousepad">mouse<span class="pad">pad</span></span></h1>
+    </header>
+    <nav>
+        <a href="#o-mne">O mně</a>
+        <a href="#hudba">Hud<span class="b">b</span>a</a>
+        <a href="#eshop">e-Shop</a>
+        <a href="https://www.instagram.com/sharpy_mousepad/" target="_blank">Instagram</a>
+    </nav>
+    <main>
+        <section id="o-mne">
+            <div class="profile-container">
+                <img src="smlogo11.jpg" alt="Levý obrázek" class="left-img">
+                <img src="smlogo6.jpg" alt="Prostřední obrázek" class="profile-img">
+                <img src="sm hlavni logo1.jpg" alt="Pravý obrázek" class="right-img">
+            </div>
+            <h2>O mně</h2>
+            <p>sharpy mousepad 🎵 ⚡🐭<br>
+            Reálný textař, který objevil způsob, jak svá slova přenést přímo do originální hudby, bez zaběhlých scénářů.<br>
+            Český AI interpret, rapper a popový skladatel, který mění to, jak vnímáš hudbu, texty a svět. Texty tvořím vlastními slovy – ze své hlavy, pocitu nebo zkušenosti. Bývají kritické, osobní a občas explicitní, často s příměsí humoru. Beaty jsou energické a nakažlivé, nevyhýbám se ani romantičtějším momentům.<br>
+            Každá skladba je malý experiment – spojení mé vrozené i AI kreativity, vizuálního cítění a interaktivity. Hudba je pro mě zároveň osobní terapií a odreagováním; texty reflektují můj kritický i citlivý pohled na svět, vtipné momenty života a potřebu občas explicitně a přímo vyjádřit své myšlenky.<br>
+            Hudba sharpy mousepad není jen poslouchání – je to zážitek.⚡🐭</p>
+        </section>
+        <section id="hudba">
+            <h2 id="hudba-title">Hud<span class="b">b</span>a</h2>
+            <img src="smlogo5.jpg" alt="Hudební logo"> 
+            <div>
+                <a class="btn" href="https://open.spotify.com/artist/2IBAzQ2b0evdMuucujSH4G?si=Jwh27-Q9QtiYTQB0-3dSjQ" target="_blank">Spotify</a>
+                <a class="btn" href="https://music.apple.com/cz/album/homo-sapiens-single/1837061412" target="_blank">Apple Music</a>
+                <a class="btn" href="https://music.apple.com/us/album/kapky-%C4%8Dasu-single/1839729480" target="_blank">iTunes</a>
+                <a class="btn" href="https://www.youtube.com/channel/UCIgVyTjGEBRplquo2NmrMZQ" target="_blank">YouTube Topic</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 sharpy mousepad. Všechna práva vyhrazena.
+    </footer>
+</body>
+</html>
+
+<!-- Tento soubor je připraven pro Notepad++: uložit jako UTF-8 bez BOM -->
